@@ -343,3 +343,8 @@ footer {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.dropdown:hover .upper {
+    left: 10px;
+    top: 40px;
+}
