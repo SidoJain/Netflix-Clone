@@ -254,8 +254,35 @@ input {
     transition: background-color 0.4s ease-in-out;
 }
 
-.faq .box:hover {
-    background-color: rgb(75, 74, 74);
+.boxed svg {
+    rotate: 0deg;
+    transition-duration: 2s;
+}
+
+.boxes:hover svg {
+    rotate: 45deg;
+}
+
+.faq .box2 {
+    width: 72.85vw;
+    background-color: #2b2b2b;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 24px;
+    color: black;
+    max-height: 0;
+    transition: 2s;
+}
+
+.box2 .content {
+    padding: 20px;
+}
+
+.boxes:hover .box2 {
+    color: white;
+    max-height: 1000px;
 }
 
 .faq .mail {
